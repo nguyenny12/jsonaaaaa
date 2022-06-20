@@ -1,0 +1,17 @@
+{
+  "name": "jsonviewer",
+  "version": "0.1.0",
+  "description": "Online JSON Viewer",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.4.1",
+    "socket.io-pm2": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "bash bin/build-ui.sh"
+  },
+  "author": "acegik",
+  "license": "MIT"
+}
